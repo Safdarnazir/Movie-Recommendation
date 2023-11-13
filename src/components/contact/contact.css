@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.container{
+    margin: auto;
+    width: 50%;
+}
+span.a{
+    color: red;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    padding: 3px;
+}
+.contact input{
+    /* margin-left: 10px; */
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+}
+textarea{
+    height: 100px;
+    width: 290px;
+    border-radius: 5px;
+}
+input:focus,textarea:focus{
+    background-color: antiquewhite;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+}
